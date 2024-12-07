@@ -11,21 +11,21 @@ Note About the Dataset
 The dataset includes a unique feature where the tax rate for all products is exactly equal to the gross income. This was both verified by me and something other analysts on Kaggle had commented on. It did result in somewhat of boring analysis without many outliers in terms of understanding sales 
 ________________________________________
 Content
-Each row in the dataset represents a unique customer transaction, and the columns provide various attributes, such as:
-•	Branch: The store branch where the transaction occurred. Represented by letter A, B and C.
-•	City: The city where the branch is located, A) Yagon, B) Mandalay, C) Naypyitaw 
-•	Customer Type: Member vs Nonmembers.
-•	Gender: Gender of the customer.
-•	Product Line: The category of the purchased product, Sports and Travel, Electronic Accessories, Home and Lifestyle, Fashion Accessories, Food and Beverages, Health and Beauty 
-•	Unit Price: Price per unit of the product.
-•	Tax: 5% tax applied to the transaction.
-•	Total: Total amount paid, including tax.
-•	Date: Date of the transaction.
-•	Time: Time of the transaction.
-•	Payment: Payment method used, cash, ewallet, credit card, payment.
-•	COGS: Cost of goods sold.
-•	Gross Margin Percentage: Margin of the sale.
-•	Gross Income: Profit from the transaction.
+Each row in the dataset represents a unique customer transaction, and the columns provide various attributes, such as:<br>
+•	Branch: The store branch where the transaction occurred. Represented by letter A, B and C. <br>
+•	City: The city where the branch is located, A) Yagon, B) Mandalay, C) Naypyitaw <br>
+•	Customer Type: Member vs Nonmembers.<br>
+•	Gender: Gender of the customer.<br>
+•	Product Line: The category of the purchased product, Sports and Travel, Electronic Accessories, Home and Lifestyle,<br> &nbsp; Fashion Accessories, Food and Beverages, Health and Beauty <br>
+•	Unit Price: Price per unit of the product.<br>
+•	Tax: 5% tax applied to the transaction.<br>
+•	Total: Total amount paid, including tax.<br>
+•	Date: Date of the transaction.<br>
+•	Time: Time of the transaction.<br>
+•	Payment: Payment method used, cash, ewallet, credit card, payment.<br>
+•	COGS: Cost of goods sold.<br>
+•	Gross Margin Percentage: Margin of the sale.<br>
+•	Gross Income: Profit from the transaction.<br>
 •	Day of the week: While not in the trends, this would have been a very useful thing to include.
 ________________________________________
 Objective
@@ -57,12 +57,12 @@ o	Seasonality: Trends and patterns indicating seasonality in sales.
 ________________________________________
 Dependencies
 •	Python 3
-•	Libraries: 
-o	pandas: For data manipulation.
-o	numpy: For numerical computations.
-o	matplotlib: For basic visualizations.
-o	seaborn: For advanced and aesthetic visualizations.
-o	tensorflow (optional): For potential predictive modeling.
+•	Libraries: <br>
+o	pandas: For data manipulation. <br>
+o	numpy: For numerical computations.<br>
+o	matplotlib: For basic visualizations.<br>
+o	seaborn: For advanced and aesthetic visualizations. <br>
+o	tensorflow (optional): For potential predictive modeling. <br>
 ________________________________________
 Summary Report
 The visualizations and findings from this project are designed to be actionable and insightful for retail decision-making. Example visualizations include:
